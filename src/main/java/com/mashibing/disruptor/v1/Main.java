@@ -31,6 +31,9 @@ public class Main {
         for(long l = 0; l<100; l++) {
             bb.putLong(0, l);
 
+
+
+
             producer.onData(bb);
 
             try {
