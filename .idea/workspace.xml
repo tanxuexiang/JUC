@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,9 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="20201202gengxin">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/disruptor/v1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/disruptor/v1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JMH.md" beforeDir="false" afterPath="$PROJECT_DIR$/JMH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/思考题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/思考题.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +70,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
@@ -94,6 +93,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -207,6 +208,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -221,6 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565232818446</updated>
       <workItem from="1606889112194" duration="2205000" />
+      <workItem from="1606973363158" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -289,7 +292,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -313,6 +316,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />
@@ -325,12 +329,6 @@
     <MESSAGE value="20201202gengxin" />
     <option name="LAST_COMMIT_MESSAGE" value="20201202gengxin" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="23" key="SettingsEditor" timestamp="1606893330618">
-      <screen x="0" y="23" width="1440" height="794" />
-    </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1606893330618" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -340,7 +338,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>126</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -350,7 +348,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
           <line>807</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
